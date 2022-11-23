@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Imagenes/Fondo.png);
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 150px; 
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 55px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: deeppink;
+}
+
+.menu-horizontal a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 500px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: darkturquoise;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+
+
+.logotipo img{
+    width: 190px;
+    height: 64px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+
+.instagram h1{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 54px;
+}
+
+.galeria img{
+    position: absolute;
+    height: 1000px;
+    width: auto;
+    margin-left: 150px;
+
+}
+
+.carrousel {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.conteCarrousel {
+    width: 900px;
+    height: 1000px;
+    overflow: hidden;
+    margin-left: 27%;
+}
+
+.itemCarrousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1 {
+    background-color: black;
+}
+
+.winnie img{
+   height: 900px;
+    width: 800px; 
+}
+
+#itemCarrousel-2 {
+    background-color: black;
+}
+
+.avengers img{
+   height: 900px;
+    width: 800px; 
+}
+
+#itemCarrousel-3 {
+    background-color: black;
+}
+
+.naruto img{
+   height: 800px;
+    width: 800px; 
+}
+
+#itemCarrousel-4{
+   background-color: black;
+}
+
+.legend img{
+    height: 900px;
+    width: 800px;
+}
+
+#itemCarrousel-5{
+   background-color: black;
+}
+
+.snoopy img{
+   height: 800px;
+    width: 800px; 
+}
+
+#itemCarrousel-6{
+   background-color: black;
+}
+
+.bad img{
+    height: 900px;
+    width: 800px;
+}
+
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: deeppink;
+}
+
+.itemCarrouselArrows > a > i {
+    color: white;
+}
+
+.lateral img{
+    position: absolute;
+    height: 1000px;
+    width: auto;
+    margin-top: -1030px;
+    margin-left: 1600px;
+}
+
+footer{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+footer p{
+    color: white;
+    font-size: 30px;
+    margin-left: 28%;
+    position: absolute;
+    margin-top: 1%;
+}
+
+
+
+
+
